@@ -1,0 +1,35 @@
+name: layou_auth
+description: Firebase Auth package with Google, Apple, and Email sign-in/linking support. Provides ready-to-use widgets and Riverpod providers.
+version: 1.0.3
+repository: https://github.com/yelkamel/layou_auth
+homepage: https://github.com/yelkamel/layou_auth
+issue_tracker: https://github.com/yelkamel/layou_auth/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+topics:
+  - firebase
+  - authentication
+  - riverpod
+  - google-sign-in
+  - apple-sign-in
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^5.3.0
+  google_sign_in: ^6.2.0
+  sign_in_with_apple: ^6.1.0
+  crypto: ^3.0.0
+  flutter_riverpod: ^2.5.0
+  riverpod_annotation: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.0
+  mocktail: ^1.0.0
